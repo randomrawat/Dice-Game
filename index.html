@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="dice 6.webp" />
+</head>
+<body>
+    <!-- whole game inside this -->
+<div id="bigsec">
+
+  <div id="leftsec">
+    
+    <div class="player">
+    <h1 id="p1">PLAYER 1</h1>
+    <h1 id="h1">0</h1>
+    </div>
+
+    <div class="curr">
+        <h2 class="cur">CURRENT</h2>
+        <h2 id="hh1">0</h2>
+    </div>
+
+  </div>
+
+  <div id="rightsec">
+
+     <div class="player">
+    <h1 id="p2">PLAYER 2</h1>
+    <h1 id="h2">0</h1>
+  </div>
+  
+    <div class="curr">
+        <h2 class="cur">CURRENT</h2>
+       <h2 id="hh2">0</h2> 
+    </div>
+    
+  </div>
+
+  </div>
+
+
+  <div id="midsec">
+
+    <div>
+        <button onclick="again()" id="newgame">NEW GAME</button>
+    </div>
+
+    <div id="midmid">
+      <img src="dice 1.png" id="img"/>
+    </div>
+
+
+    <div id="lowmid">
+      <button onclick="rolly()" id="roll">ROLL DICE</button>
+      <button onclick="holdy()" id="hold">HOLD</button>
+    </div>
+
+
+  </div>
+  
+    </div>
+
+
+
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
